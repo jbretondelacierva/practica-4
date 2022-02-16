@@ -7,7 +7,7 @@ let url = "http://api.openweathermap.org/data/2.5/weather?q="+Ciudad+"&APPID="+A
 
 async function getApi(){
     let Ciudad = elementos.value;
-    let url = "http://api.openweathermap.org/data/2.5/weather?q="+Ciudad+"&APPID="+API_KEY+"&units=metric";
+    let url = "https://api.openweathermap.org/data/2.5/weather?q="+Ciudad+"&APPID="+API_KEY+"&units=metric";
     let respuesta = await fetch(url);
     if(respuesta.ok){
         console.log(respuesta);
