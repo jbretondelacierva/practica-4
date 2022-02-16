@@ -24,6 +24,10 @@
 }
 
 #contact p {
-  color: rgba(255, 255, 255, 0.6);
+  padding-top: 10px;
+}
 
+#map {
+  height: 40vh;
+  width: 25hw;
 }
