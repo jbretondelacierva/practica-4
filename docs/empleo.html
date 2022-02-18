@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <Link rel="stylesheet " href="main.css">
+    <title>Inditex</title>
+    <link rel="icon" type="image/x-icon" href="https://static.inditex.com/annual_report_2020/assets/apple-touch-icon-120x120.png">
+    <style>
+    </style>
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Inditex_Logo.svg/2560px-Inditex_Logo.svg.png" alt="Logo" width="200" height="40" /></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#marcas">Marcas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="empleo.html">Empleo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inversores.html">Inversores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tiempo.html">Tiempo</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<section id="empleo" class="d-flex align-items-center">
+
+    <div class="container"  class="d-flex align-items-center">
+
+        <div class="row">
+
+            <div class="col-md-10 offset-md-1">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        <h1 align="center">Encuentra más que un trabajo</h1>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="row">
+                                <div class="col-10 justify-content-center">
+                            <form>
+                                <div class="row">
+
+                                    <div class="form-group col-md-3">
+                                    <label for="inputState">Puestos</label>
+                                    <select id="inputState" class="form-control">
+                                        <option value="1">Todos</option>
+                                        <option value="2">Web developer</option>
+                                        <option value="3">Cajero</option>
+                                    </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                    <label for="inputState">Marcas</label>
+                                    <select id="inputState" class="form-control">
+                                        <option value="1">Todos</option>
+                                        <option value="2">Pull&Bear</option>
+                                        <option value="3">Otro</option>
+                                    </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputState">Mercados</label>
+                                        <select id="inputState" class="form-control">
+                                            <option value="1">Todos</option>
+                                            <option value="2">Europeo</option>
+                                            <option value="3">Asiatico</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputState">Ciudades</label>
+                                        <select id="inputState" class="form-control">
+                                            <option value="1">Todos</option>
+                                            <option value="2">Madrid</option>
+                                            <option value="3">Roma</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Form submissions success message -->
+                                    <div class="d-none" id="submitSuccessMessage">
+                                        <div class="text-center mb-3">Form submission successful!</div>
+                                    </div>
+
+                                    <!-- Form submissions error message -->
+                                    <div class="d-none" id="submitErrorMessage">
+                                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                                    </div>
+
+                                </div>
+                            </form>
+                            </div>
+                                <div class="col-md-2 justify-content-center">
+                                    <div style="color: transparent;">.</div>
+                                    <button class="btn btn-light" id="submitButton" type="submit" style="width: 140px;">Buscar</button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- ======= cv Section ======= -->
+<section id="cv" class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 d-flex d-none d-lg-block flex-column justify-content-center">
+                <div class="row">
+                    <div class="col-3" align="left">
+                        <img src="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/22a71bbb9a01e87f7ca954b84de2235b" width="150">
+                    </div>
+                    <div class="col-9">
+                        <h1>ENVIANOS TU CV</h1>
+                        <h2>Nos encanta lo que hacemos</h2>
+                        <p>Somos lo que te pones para ir a trabajar, con lo que decides decorar tu vida, lo que escoges para esa ocasión especial.
+
+                            El trabajo en equipo, la inquietud, la diversidad, la sostenibilidad, la creatividad y la humildad mueven a nuestras más de 144.000 personas que forman parte del grupo Inditex.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 d-flex flex-column justify-content-center">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <form>
+                                <!-- Name input -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="name">Nombre</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Nombre" data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                                </div>
+
+                                <!-- Email address input -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="emailAddress">Dirección de correo</label>
+                                    <input class="form-control" id="emailAddress" type="text" placeholder="Dirección de correo" data-sb-validations="required, email" />
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                </div>
+
+                                <!-- Message input -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="message">Información adicional</label>
+                                    <textarea class="form-control" id="message" type="text" placeholder="Mensaje" style="height: 5rem;" data-sb-validations="required"></textarea>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">Sube tu CV en formato pdf</label>
+                                    <input class="form-control" type="file"  accept="application/pdf" id="formFile">
+                                </div>
+
+                                <!-- Form submissions success message -->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">Form submission successful!</div>
+                                </div>
+
+                                <!-- Form submissions error message -->
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div>
+
+                                <!-- Form submit button -->
+                                <div class="d-grid">
+                                    <button class="btn btn-dark btn-lg " id="submitButton" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                <!-- <div align="center"><img src="https://www.diariodesevilla.es/2021/09/15/empresas-al-dia/Pablo-Isla-presidente-Inditex_1611149334_143880035_1200x675.jpg" alt="Logo" width="1200" height="675" /></div>
+-->
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- ======= trabajo Section ======= -->
+<section id="trabajo" class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-7 d-flex flex-column justify-content-center">
+                <h1>CÓMO TRABAJAMOS</h1>
+                <p>Queremos generar valor a través de la creación de productos atractivos, éticos y de calidad que tengan un ciclo de vida circular. Abordamos todas las fases del proceso de la moda -diseño, aprovisionamiento, control de calidad de producto y fabricación, logística y venta a través de tiendas y online- a través de un modelo con tres pilares clave: flexibilidad, integración y sostenibilidad.</p>
+            </div>
+            <div class="col-5 d-flex d-none d-lg-block flex-column justify-content-center">
+                <img src="comotrabajamos.png"  class="img-fluid">
+                <!-- <div align="center"><img src="https://www.diariodesevilla.es/2021/09/15/empresas-al-dia/Pablo-Isla-presidente-Inditex_1611149334_143880035_1200x675.jpg" alt="Logo" width="1200" height="675" /></div>
+-->
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="clientes">
+
+    <div class="container"  class="d-flex align-items-center">
+        <div class="row">
+
+            <div class="col-6 d-flex d-none d-lg-block flex-column justify-content-center">
+                    <img src="https://www.inditex.com/documents/10279/240983/Clientes.jpg/7aefb13c-2b3a-9a5d-c66e-752ceff6d357?t=1563360933739"  class="float-end" >
+
+               </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1>CLIENTES</h1>
+                <p>El cliente está en el centro de nuestras decisiones. Nuestro éxito depende de crear moda atractiva y responsable que satisfaga sus demandas en el momento adecuado a través de la mejor experiencia.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container"  class="d-flex align-items-center">
+        <div class="row">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1 class="text-end">TIENDAS
+                </h1>
+                <p class="text-end">
+                    Nuestras tiendas y plataformas online son el corazón de nuestra actividad y el lugar donde forjamos la relación con nuestros clientes.
+                </p>
+            </div>
+
+            <div class="col-6 d-flex d-none d-lg-block flex-column justify-content-center">
+                <img src="https://www.inditex.com/documents/10279/241223/Stores_model.jpg/1108aeec-c715-fec8-72b5-048a51efff0b?t=1615551048164"  height="450">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container"  class="d-flex align-items-center">
+        <div class="row">
+
+            <div class="col-6 d-flex d-none d-lg-block flex-column justify-content-center">
+                <img src="https://www.inditex.com/documents/10279/241223/Dise%C3%B1o.jpg/b5f87adb-5759-4184-ac91-48573d3a6363?t=1486114918928"  class="float-end" >
+
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1>DISEÑO</h1>
+                <p>Nuestros diseñadores entienden las necesidades de nuestros clientes y saben que la creación de moda responsable empieza en cuanto se ponen a dibujar.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container"  class="d-flex align-items-center">
+        <div class="row">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1 class="text-end">APROVISIONAMIENTO
+                </h1>
+                <p class="text-end">
+                    Realizamos grandes esfuerzos para asegurar que nuestro aprovisionamiento de materias primas y productos es responsable y cumple con nuestros requisitos de sostenibilidad.                </p>
+            </div>
+
+            <div class="col-6 d-flex d-none d-lg-block flex-column justify-content-center">
+                <img src="https://www.inditex.com/documents/10279/241223/Aprovisionamiento.jpg/efea5394-a715-4247-ba78-fb4ee37f9ef2?t=1486114918458"  height="450">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container"  class="d-flex align-items-center">
+        <div class="row">
+
+            <div class="col-6 d-flex d-none d-lg-block flex-column justify-content-center">
+                <img src="https://www.inditex.com/documents/10279/241223/Producto_landing.jpg/56252e20-afef-8733-b42a-5bfb43e01b28?t=1527776842060"  class="float-end" >
+
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1>PRODUCTO</h1>
+                <p>Nuestra moda se fabrica de manera precisa y eficiente, y cumple con los estándares más elevados de salud, seguridad y sostenibilidad medioambiental.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container"  class="d-flex align-items-center">
+        <div class="row">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <h1 class="text-end">LOGÍSTICA
+                </h1>
+                <p class="text-end">
+                    Reconocidos con la certificación de sostenibilidad más exigente, nuestros 10 centros de distribución –todos ellos en España–destacan por su rapidez de respuesta y su eficiencia en el uso de recursos.            </div>
+
+            <div class="col-6 d-flex d-none d-lg-block flex-column justify-content-center">
+                <img src="https://www.inditex.com/documents/10279/241223/Logistica.jpg/66bd1cf2-b241-4aa6-8109-7a6dd6abf4b9?t=1486114919227"  height="450">
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+    </symbol>
+</svg>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img width="30" height="24" src="https://static.inditex.com/annual_report_2020/assets/apple-touch-icon-120x120.png"/></img>
+            </a>
+            <span class="text-muted">&copy; 2022 Inditex, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.twitter.com/inditexcareers/" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/inditexcareers/" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/inditexcareers/" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+    </footer>
+</div>
+
+
+</body>
+</html>
